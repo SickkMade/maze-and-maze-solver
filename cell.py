@@ -44,3 +44,13 @@ class Cell:
         elif arr_direction == [0, 1]:
             self.has_right_wall = False
         self.draw()
+
+    def check_wall(self, arr_direction):
+        if arr_direction == [-1, 0]:
+            return not self.has_top_wall
+        elif arr_direction == [1, 0]:
+            return not self.has_bottom_wall
+        elif arr_direction == [0, -1]:
+            return not self.has_left_wall
+        elif arr_direction == [0, 1]:
+            return not self.has_right_wall

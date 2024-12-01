@@ -1,4 +1,4 @@
 # tell me why this gif looks underwater :sob:
 
-![](https://giphy.com/gifs/rwhAXnpyYwuXBky6le)
+![](https://github.com/SickkMade/maze-and-maze-solver/maze.gif)
 
